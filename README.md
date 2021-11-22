@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# This is my Web Application Class Stuff
+I'm using: 
+[React Router](https://reactrouter.com/).
+[Create React App](https://github.com/facebook/create-react-app).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Everything Below this is kept from Create-React-App
 
 ## Available Scripts
 
