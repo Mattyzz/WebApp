@@ -13,9 +13,9 @@ ReactDOM.render(
       {/**
        * Home is nested in the main page. And is cosidered a child of /
        */}
-      <Route path="/" element={<App />} >
-        <Route path="Home" element={<Home />} />
-        <Route path="/Page2" element={<Page2 />} />
+      <Route path="/WebApp" element={<App />} >
+        <Route path="/WebApp/Home" element={<Home />} />
+        <Route path="/WebApp/Page2" element={<Page2 />} />
       </Route>
     </Routes>
   </BrowserRouter>,
