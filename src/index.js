@@ -5,7 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from "./pages/Home";
-import Page2 from "./pages/Page2";
+import JsonStuff from "./pages/JsonStuff";
+import Resources from "./pages/Resources";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -15,7 +16,8 @@ ReactDOM.render(
        */}
       <Route path="/WebApp" element={<App />} >
         <Route path="/WebApp/Home" element={<Home />} />
-        <Route path="/WebApp/Page2" element={<Page2 />} />
+        <Route path="/WebApp/JsonStuff" element={<JsonStuff />} />
+        <Route path="/WebApp/Resources" element={<Resources />} />
       </Route>
     </Routes>
   </BrowserRouter>,

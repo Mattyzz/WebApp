@@ -4,19 +4,27 @@ import { Outlet, Link } from 'react-router-dom';
 import Home from './pages/Home';
 function App() {
   return (
-    <div>
-      <h1>Testing my React Router Stuff</h1>
-      <nav
-        style={{
-          borderBottom: "solid 1px",
-          paddingBottom: "1rem"
-        }}
-      >
-        <Link to="Home">Home</Link> |{" "}
-        <Link to="Page2">Page2</Link> |{" "}
-      </nav>
+    <main>
+      <div className="nav-bar">
+        Welcome to my React Router Page
+      </div>
+
+      <div className="center">
+        <nav
+          style={{
+            borderBottom: "solid 1px",
+            paddingBottom: "1rem",
+            background: (242,237,237,1)
+          }}
+        >
+          <Link to="Home">Home</Link> | {" "}
+          <Link to="JsonStuff">JsonStuff</Link> |{" "}
+          <Link to="Resources">Resources</Link> | {" "}
+        </nav>
+      </div>
+
       <Outlet />
-    </div>
+    </main>
   );
 }
 
