@@ -1,5 +1,6 @@
 //Home.Js
-
+//Here I have all the Json Stuff like JSON.parse, JSON.Stringify(TODO)
+//I also will put fetch by fetching a username based of UUID from the minecraft api
 export default function JsonStuff(){
   let userStr = '{"name":"Sammy","email":"sammy@example.com","plan":"Pro"}';
 

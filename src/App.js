@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import { Outlet, Link } from 'react-router-dom';
 import Home from './pages/Home';
+
+//Nav bar page
 function App() {
   return (
     <main>
@@ -20,6 +22,7 @@ function App() {
           <Link to="Home">Home</Link> | {" "}
           <Link to="JsonStuff">JsonStuff</Link> |{" "}
           <Link to="Resources">Resources</Link> | {" "}
+          <Link to="Minecraft">Minecraft</Link> | {" "}
         </nav>
       </div>
 

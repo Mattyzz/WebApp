@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from "./pages/Home";
 import JsonStuff from "./pages/JsonStuff";
 import Resources from "./pages/Resources";
+import Minecraft from "./pages/Minecraft";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -14,10 +15,11 @@ ReactDOM.render(
       {/**
        * Home is nested in the main page. And is cosidered a child of /
        */}
-      <Route path="/WebApp" element={<App />} >
-        <Route path="/WebApp/Home" element={<Home />} />
-        <Route path="/WebApp/JsonStuff" element={<JsonStuff />} />
-        <Route path="/WebApp/Resources" element={<Resources />} />
+      <Route path="/" element={<App />} >
+        <Route path="Home" element={<Home />} />
+        <Route path="JsonStuff" element={<JsonStuff />} />
+        <Route path="Resources" element={<Resources />} />
+        <Route path="Minecraft" element={<Minecraft />} />
       </Route>
     </Routes>
   </BrowserRouter>,
