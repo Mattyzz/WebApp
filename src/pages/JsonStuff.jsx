@@ -5,6 +5,8 @@ export default function JsonStuff(){
   let userStr = '{"name":"Sammy","email":"sammy@example.com","plan":"Pro"}';
 
   let userObj = JSON.parse(userStr);
+
+  console.log(JSON.stringify('name'))
     return (
         <main>
           <div className="center">
@@ -37,7 +39,7 @@ export default function JsonStuff(){
               <h2>Check console log for JSON.stringify</h2>
               <div className="content">
                 <h2>TODO</h2>
-                <p>JSON.stringify</p>
+                <p>JSON.stringify is in console</p>
                 <p>No I'm not making a TODO-app... again</p>
               </div>
 

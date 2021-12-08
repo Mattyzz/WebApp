@@ -15,7 +15,7 @@ ReactDOM.render(
       {/**
        * Home is nested in the main page. And is cosidered a child of /
        */}
-      <Route path="/" element={<App />} >
+      <Route path="/Webapp" element={<App />} >
         <Route path="Home" element={<Home />} />
         <Route path="JsonStuff" element={<JsonStuff />} />
         <Route path="Resources" element={<Resources />} />
